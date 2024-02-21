@@ -12,8 +12,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from phoenix.trace.langchain import LangChainInstrumentor
 
 # path dirs
-chroma_path = "C:/Users/groutgauss/Langchain/Chromadb/"
-document_dir = "C:/Users/groutgauss/Langchain/data/"
+chroma_path = "C:/Users/~/"
+document_dir = "C:/Users/~/"
 
 # Start Phoenix server and Instrument LangChain
 session = px.launch_app()
