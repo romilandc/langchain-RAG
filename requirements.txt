@@ -1,0 +1,23 @@
+# Main modules
+langchain
+ollama #https://pypi.org/project/ollama/
+llama-hub
+
+#for Chroma and Ollama implimentation (sub with whatever vdb or LLM method you choose)
+chromadb
+langchain.llms
+langchain.chains
+langchain.embeddings.sentence_transformer
+langchain.vectorstores.chroma
+langchain.document_loaders
+
+qdrant-client
+sentence-transformers
+EbookLib
+html2text
+arize-phoenix #great if you want to see how the indexing / embeddings are made
+phoenix.trace.langchain
+requests
+pypdf
+python-dotenv
+os
